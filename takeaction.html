@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>STOP CLIMATE CHANGE</title>
+    <meta charset="utf-8" />
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	  <!-- link the webpage's stylesheet -->
+	  <link rel="stylesheet" href="/style.css" />
+
+	  <!-- link the webpage's JavaScript file -->
+	  <script src="/script.js" defer></script>
+
+  </head>
+  
+  <body>
+      <!--Here is my nav bar.-->
+      <nav>
+       <ul>
+       <li>
+         <a href="index.html">Home</a>
+       </li>
+       <li>
+         <a href="takeaction.html">Take Action</a>
+       </li>
+       <li>
+         <a href="aboutme.html">About Me</a>
+       </ul>
+      </nav> 
+    <div>
+
+    <main>
+    
+      <h1>Possible Solutions</h1>
+      <p id="solutionstext"><!--I gave this section of text an id to enable me to create space under it to separate the Sources from the paragraph using CSS.-->
+        According to NASA, there are two parts to responding to climate change: mitigation and adaptation. Mitigation involves decreasing the amount of greenhouse gases being released into the atmosphere, either by causing less greenhouse gases to be produced or by making oceans, soil, and forests more effective in storing them. Adaptation involves creating more effective planning and infrastructure to reduce the damage consequences of climate change are having on communities. Through the Paris Agreement, which was implemented in 2016, several countries have agreed to lower the amount of greenhouse gases they release into the atmosphere (United Nations). However, many climate experts believe that not enough is being done to effectively reduce carbon emissions (Euronews). This year, US President Biden has proposed a plan for dramatically reducing carbon emissions, which has garnered both praise and criticism. Click<!--Here I put a link to a website I discuss in the paragraph.-->
+        <a href="https://www.whitehouse.gov/briefing-room/statements-releases/2021/04/22/fact-sheet-president-biden-sets-2030-greenhouse-gas-pollution-reduction-target-aimed-at-creating-good-paying-union-jobs-and-securing-u-s-leadership-on-clean-energy-technologies/">here<a/> to read about it.</p>
+
+      <div><!--I separated this section using a div to make my code easier to read and differentiate the sources from the paragraph.-->
+       <h3>Sources:</h3>
+         <p>NASA: <a href="https://climate.nasa.gov/solutions/adaptation-mitigation/">https://climate.nasa.gov/solutions/adaptation-mitigation/</a></p>
+         <p>United Nations: <a href="https://unfccc.int/process-and-meetings/the-paris-agreement/the-paris-agreement">https://unfccc.int/process-and-meetings/the-paris-agreement/the-paris-agreement</a></p>
+         <p>Euronews: <a href="https://www.euronews.com/2021/08/09/watch-live-un-scientists-release-monumental-climate-change-report">https://www.euronews.com/2021/08/09/watch-live-un-scientists-release-monumental-climate-change-report</a></p>
+      <div>
+
+
+
+      <h1 id="whatyoucando">What you can do</h1><!--I put an id for this heading because I wanted to style it further using CSS.-->
+
+      <h2>More Learning Resources:</h2>
+       <!--I linked each website and let the link appear as it is instead of using descriptive text. However, I did describe the source of the link next to it using the <p> element.-->
+        <p>United Nations University: 
+        <a href="https://ourworld.unu.edu/en/development-society">https://ourworld.unu.edu/en/development-society</a>
+        </p>
+
+        <p>New York Times: 
+          <a href="https://www.nytimes.com/section/climate?name=styln-climate&region=TOP_BANNER&block=storyline_menu_recirc&action=click&pgtype=Article&variant=show">https://www.nytimes.com/section/climate?name=styln-climate&region=TOP_BANNER&block=storyline_menu_recirc&action=click&pgtype=Article&variant=show</a>
+        </p>
+
+        <p>Center for Climate and Energy Solutions: 
+          <a href="https://www.c2es.org/content/federal-action-on-climate/">https://www.c2es.org/content/federal-action-on-climate/</a>
+        </p>
+
+        <p>United Nations: 
+          <a href="https://www.un.org/en/climatechange">https://www.un.org/en/climatechange</a>
+        </p>
+
+      <h2>Contact Your Representatives:</h2>
+      <p>Plans like President Biden’s are a step towards combating climate change, but even more needs to be done. Urgent action is needed to be truly effective in this fight. If you live in the US, fill out the information below to get a personalized script you can use to urge your representatives in Congress to fight for climate change!</p>
+
+    <!--Here I put the HTML code needed for my form. I put the script elements in a class to be able to style them all together. I put the inputs in a class for the same reason. I also gave ids to be able to reference them in my JavaScript.-->
+
+    <form>
+      <div class="script">
+        <div class="inputs">
+          <label for="yourName">Your name: </label>
+          <br><!--I put line breaks between the text and input submission for styling purposes.-->
+          <input type="text" id="name" >
+        </div>
+
+        <div class="inputs">
+          <label for="yourCity">Your city or town and state: </label>
+          <br>
+          <input type="text" id="city" >
+        </div>
+
+        <div class="inputs">
+          <label for="yourConnection">Why is fighting climate change important to you? </label>
+          <br>
+          <input type="text" id="connection">
+        </div>
+        
+        <button type="button" id="scriptButton">Submit</button>
+
+        </div>
+
+      </div>
+
+      <p id="scriptReturned"><p>
+    </form>
+
+    
+      
+
+    </main>
+  
+  </body>
+</html>
