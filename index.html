@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>Activist Toolkit-Climate Change</title>
+    <meta charset="utf-8" />
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	  <!-- link the webpage's stylesheet -->
+	  <link rel="stylesheet" href="/style.css" />
+
+	  <!-- link the webpage's JavaScript file -->
+	  <script src="/script.js" defer></script>
+
+  </head>
+  
+  <body>
+    <!--Here is the nav bar. This is at the beginning of every page. I link the index.html for the home page, the takeaction.html for the Take Action page, and the aboutme.html for the About Me page in order to allow for navigation between them on the website.-->
+      <nav class="navbar">
+       <ul>
+       <li class="navitem">
+         <a href="index.html">Home</a>
+       </li>
+       <li class="navitem">
+         <a href="takeaction.html">Take Action</a>
+       </li>
+       <li class="navitem">
+         <a href="aboutme.html">About Me</a>
+       </ul>
+      </nav>
+
+    <main>
+      <!--Here is the heading. Below it is the subheading.-->
+      <h1>STOP CLIMATE CHANGE NOW</h1>
+      <h3 id="goal">Learn more about and take action against climate change!</h3>
+
+      <!--Here I am giving a brief summary about why I think climate change is happening and offering a resource from NASA by linking it to give more information.-->
+      <h2>Causes</h2>
+      <p id="causesparagraph">Billionaires and giant corporations are actively contributing to climate change by using energy irresponsibly and polluting the atmosphere, while governments are not doing enough to fight combat climate change, causing the problem to continuously worsen. To learn more about the science behind why climate change is happening, visit <!--here is the link-->
+        <a href="https://climate.nasa.gov/causes/">this NASA website</a>
+      .</p>
+      
+      <!--I am also giving a brief outlook of the consequences of climate change here, and linking a website for more information.-->
+      <h2>Consequences</h2>
+      <p id="consequencesparagraph">Climate change is causing mass destruction across the globe. Aside from the natural environment being harmed, more and more people are being harmed as a result of extreme weather phenomena that are happening because of global warming, such as fires, heat waves, and hurricanes. To find out more about the effects of climate change, and why all these extreme weather phenomena are occurring, visit 
+        <a href="https://climate.nasa.gov/effects/">this other NASA website</a>
+      .</p>
+      
+      <!--Here I decided to link a few recent news stories about climate change and its consequences. Each heading is also a link to the news story and the text is the title of the article. The pictures are stock photos from Pixabay.-->
+      <h3>Current News:</h3>
+      <div id="news"><!--I put all the pictures and their headings in a div section to allow me to style them together using CSS.-->
+        <div class="newsitems"><!--I put each news story, with the picture and heading, in a different div section as well to make it easier for me to differentiate between them. I also put the three news stories (with pictures) in a class to help me style them in a row by applying CSS to all three.--> 
+         <h4><!--Here is the first link-->
+           <a href="https://www.nytimes.com/2021/08/09/climate/climate-change-UN-report.html?action=click&algo=bandit-all-surfaces&block=more_in_recirc&fellback=false&imp_id=284832920&impression_id=9f487332-fa82-11eb-9994-cd1bc926ad9d&index=3&pgtype=Article&pool=more_in_pools%2Fclimate&region=footer&req_id=745895016&surface=eos-more-in&variant=0_bandit-all-surfaces">Climate Change Is a ‘Hammer Hitting Us on the Head,’ Developing Nations Say (NY TIMES)</a>
+         </h4>
+         <!--Here is the image for this story-->
+         <img src="assets/hurricanefirstwebsite.jpg" alt="Partial iew of the Earth's atmosphere from space. The Earth takes up most of the space. Its curvature is visible. The Earth's atmosphere is dar gray and cloudy, with a whle in the middle and clouds rotating around the hole. At the edge of the Earth's body there is a bright blue outline. Beyond that is empty black space.">
+        </div>
+
+        <div class="newsitems">
+         <h4><!--Here is the second link-->
+           <a href="https://www.cbsnews.com/news/greece-turkey-wildfires-sparked-by-reality-of-climate-change/">Thousands in Greece and Turkey flee wildfires that display the 'reality of climate change' (CBS NEWS)</a>
+         </h4>
+         <!--Here is the image for this story-->
+         <img src="assets/firegreecewebsite.jpg" alt="a row of the black silhouettes of several tall, thin trees with visible branches and twigs on top that mix into each other. The ground is also black. Between the trees, fire is visible and covers the entire area. The trees are being engulfed in flames.">
+        </div>
+
+       <div class="newsitems">
+         <h4><!--Here is the third link-->
+           <a href="https://www.firstpost.com/india/a-round-up-of-indias-worst-climate-change-events-in-2021-9836471.html">A round-up of India's worst climate change events in 2021 (Firstpost)</a>
+         </h4>
+         <!--Here is the image for this story-->
+         <img src="assets/indiawebsitepicture.jpg" alt="India's flag (three equal horizontal strips: India saffron on top, white in the middle, and India green on the bottom, with the Ashoka Chakra, a 24-spoke wheel, in the center) waves in the wind. Beyond it is a light blue sky and a rather blurry cityscape, but only the tops of buildings are visible.">
+       </div>
+      </div>
+
+    </main>
+    
+  </body>
+</html>
