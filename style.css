@@ -1,0 +1,232 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+/*setting background and text colors*/
+body {
+ background-color: #FFEEB3;
+ color: #A20101;
+}
+
+
+
+
+/*setting margins*/
+main {
+  margin-right: 12%;
+  margin-left: 12%;
+  margin-top: 0%;
+  margin-bottom: 10%;
+}
+
+
+
+
+
+/* STYLE TEXT */
+
+/*Here is my main styling for my headings.*/
+h1 {
+ color: #600000;
+ font-size: 50px;
+ text-align: center;
+ padding: 2%;
+ margin-top: 0px;
+ margin-bottom: 0px;
+ font-family: 'Impact', serif;
+ letter-spacing: 2px;
+ text-decoration: underline;
+ }
+
+/*This is the subheading under the heading on the Home page. I styled it to differentiate it from the other paragraph elements.*/
+#goal {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0em;
+  font-family: "Georgia", serif;
+}
+
+h2 {
+  color:#854D00;
+  font-size: 40px;
+  padding-top: 20px;
+  font-style: italic;
+  font-family: 'Impact', serif;
+}
+
+h3 {
+  color: #8A5000;
+  font-size: 25px;
+  font-family: 'Impact', serif;
+}
+
+
+/*Here I style the paragraph element. Below I have various ids for paragraph elements where I want things to be slightly different, usually when it comes to the padding.*/
+
+p {
+  font-family: "Georgia", serif;
+  font-size: 17px;
+}
+
+#consequencesparagraph {
+  padding-bottom: 10px;
+}
+
+#news-text {
+  padding-bottom: 1em;
+}
+
+#solutionstext {
+  padding-bottom: 1em;
+}
+
+#whatyoucando {
+  padding-top: 1em;
+  padding-bottom: 0em;
+}
+
+
+
+
+/* STYLE IMAGES */
+/*Here my goal was to style all three pictures on the Home page to make them all in a row next to each other. I also changed their sizes to make them smaller and more similar to each other so that they could fit.*/
+
+/*Here I separated the three news elements from the rest of the page by adding extra styling. The id references all of that section.*/
+#news {
+  text-align: center;
+  float: center;
+  background-color: #FFDD00;
+  padding: 10px;
+}
+
+/*Here I made the images smaller.*/
+img {
+  max-width: 350px;
+  max-height: 500px;
+}
+
+/*Here I put the images (with their headings) in a row next to each other instead of under each other.*/
+.newsitems {
+  float: left;
+  display: inline;
+  width: 33%;
+}
+
+#news::after {
+  content:"";
+  clear: both;
+  display: table;
+}
+
+
+
+
+/* STYLE NAV BAR */
+ul {
+  list-style-type: none;
+  background-color: #DA0101;
+  padding: 1em;
+  margin-bottom: 0px;
+  text-align: center;
+  font-style: "Impact", serif;
+}
+
+/*This makes the list items next to each other.*/
+li {
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 1.3em;
+  padding: 1em;
+  font-weight: bold;
+}
+
+/*When someone hovers their mouse over any list item, its background color and font color change.*/
+li a:hover {
+  background-color: #FFF700;
+  color: #DA0101;
+}
+
+
+
+
+/* STYLE BUTTONS */
+
+/*Here I style the submit button for my form feature.*/
+#scriptButton {
+  background: #DA0101;
+  border-color: #600000;
+  border-radius: 15px;
+  padding: 8px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  color: #FFFFFF;
+  font-size: 23px;
+}
+
+
+
+
+/* ADD MORE! */
+
+/*Here I style the form elements.*/
+
+/*This is general styling for everything, such as for the text and to center the form.*/
+form {
+  text-align: center;
+  color: #DA0101;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/*Here I style everything outside the form inputs, like the background and margins and padding, just like above. */
+.script {
+  background: #FFDD00;
+  border-radius: 30px;
+  border-color: #DA0101;
+  margin-top: 0px;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-family: "Times New Roman", serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #A20101;
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+}
+
+/*Here I style the margins and padding around each input.*/
+.inputs{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  margin-right: 10px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 0px;
+}
+
+/*Here I style what the input space looks like.*/
+input {
+  border-radius: 5px;
+  border-color: #DA0101;
+  width: 60%;
+}
+
+/*Here I style the text that shows up after the form is submitted.*/
+#scriptReturned {
+  margin-top: 0px;
+  padding-top: 10px;
+  margin-left: 28%;
+  margin-right: 28%;
+  margin-bottom: 10%;
+  color: #600000;
+  font-size: 17px;
+  font-style: italic;
+}
