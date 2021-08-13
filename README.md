@@ -1,2 +1,2 @@
 # Artemis-C.github.io
-This is an activist toolkit about climate change.
+This is an activist toolkit about climate change. I have included a Home page that briefly discusses the causes and consequences of climate change and includes three recent news stories related to climate change. I have also included a Take Action page that includes possible solutions to climate change, resources users could use to learn more about climate change, and a form in which users could input information in order to recieve a personalized script they could use to contact their representative that urges them to fight more strongly for climate change reform. Lastly, there is an About Me page that gives a brief description of who I am.
